@@ -43,7 +43,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md', '.ipynb_che
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "pandas_sphinx_theme"
+html_theme = "pydata_sphinx_theme"
 html_logo = "_static/logo.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
