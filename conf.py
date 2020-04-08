@@ -53,4 +53,6 @@ html_static_path = ['_static']
 
 # -- Options for myst-nb
 
+latex_engine = 'xelatex'
+
 jupyter_execute_notebooks = "off"
