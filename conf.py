@@ -51,8 +51,16 @@ html_logo = "_static/logo.png"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# -- Options for myst-nb
+# -- Latex Options
 
 latex_engine = 'xelatex'
+
+latex_documents = [
+    ('index', 'book.tex', project, author, 'manual', False),
+    ('ar1_processes', 'ar1_processes.tex', 'AR1 Processes', author, 'manual', False),
+    ('finite_markov', 'finite_markov.tex', 'Finite Markov Chains', author, 'manual', False),
+]
+
+# -- Options for myst-nb
 
 jupyter_execute_notebooks = "off"
